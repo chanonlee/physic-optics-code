@@ -1,16 +1,17 @@
 function Eout = AAB_carrying_PowerExponentPhase_vortex_beam(r0,w,n,l,Nx,Lx,Ny,Ly)
-% Introduce Í»È»¾Û½¹µÄ´øÃİÖ¸ÊıÏàÎ»µÄ°¬ÀïÎĞĞı¹â
+% Introduce çªç„¶èšç„¦çš„å¸¦å¹‚æŒ‡æ•°ç›¸ä½çš„è‰¾é‡Œæ¶¡æ—‹å…‰
 % generate Spiral autofocusing Airy beams carrying power-exponent-phase vortices
+% è®ºæ–‡ https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-22-7-7598&id=282225
 % writen by Ziwei Ye
 
-%   r0   ²ÎÊı
-%   w    ¹âÑü²ÎÊı
-%   n    ÃİÖ¸Êı²ÎÊı
-%   l    ÍØÆËºÉ
-%   Lx   x·½Ïò³¤¶È
-%   Nx   x·½Ïò·Ö³É¶àÉÙ¸öµã
-%   Ly   y·½Ïò³¤¶È
-%   Ny   y·½Ïò·Ö³É¶àÉÙ¸öµã
+%   r0   å‚æ•°
+%   w    å…‰è…°å‚æ•°
+%   n    å¹‚æŒ‡æ•°å‚æ•°
+%   l    æ‹“æ‰‘è·
+%   Lx   xæ–¹å‘é•¿åº¦
+%   Nx   xæ–¹å‘åˆ†æˆå¤šå°‘ä¸ªç‚¹
+%   Ly   yæ–¹å‘é•¿åº¦
+%   Ny   yæ–¹å‘åˆ†æˆå¤šå°‘ä¸ªç‚¹
 
     dx=Lx/Nx;
     x=-Lx/2:dx:Lx/2-dx;
